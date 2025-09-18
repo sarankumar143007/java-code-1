@@ -1,3 +1,4 @@
+///Task 2 
 package Array;
 import java.util.*;
 public class ArrayListTask {
@@ -7,7 +8,7 @@ public class ArrayListTask {
 				for (int num : arr) {
 					sum = sum + num;
 				}
-
+				
 				System.out.println("Sum: " + sum);
 			}
 			public static void main(String[] args) {
@@ -21,7 +22,6 @@ public class ArrayListTask {
 				add(arr);
 
 	        //Task-2
-
 			System.out.println("Index of The Target Element 3 : " + arr.indexOf(3));
 		}
 	}
